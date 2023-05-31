@@ -69,12 +69,12 @@ public class MineSweeper extends JFrame {
     }
 
     private String getMessage(){
-        switch (game.getState()){
-            case PLAYED: return "Не подорвись!";
-            case BOMBED: return "Ты проиграл!";
-            case WINNER: return "Поздравляю, ты победил!";
-            default: return "";
-        }
+        return switch (game.getState()) {
+            case PLAYED -> "Не подорвись!";
+            case BOMBED -> "Ты проиграл!";
+            case WINNER -> "Поздравляю, ты победил!";
+            default -> "";
+        };
     }
     private void initFrame() {
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
