@@ -12,10 +12,10 @@ import sweeper.Ranges;
 
 public class MineSweeper extends JFrame {
     private Game game;
-    private final int COLS = 9;
-    private final int ROWS = 9;
-    private final int BOMBS = 10;
-    private final int IMAGE_SIZE = 50;
+    private int COLS = 9;
+    private int ROWS = 9;
+    private int BOMBS = 10;
+    private int IMAGE_SIZE = 50;
     private JPanel panel;
     private JLabel label;
 
