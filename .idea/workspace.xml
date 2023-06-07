@@ -6,24 +6,24 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f58473a8-a7b7-4cd5-964b-86b8745626c4" name="Changes" comment="rename icon">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/MineSweeper_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MineSweeper.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resource/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MineSweeper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sweeper/Bomb.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sweeper/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sweeper/Coord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sweeper/Flag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sweeper/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sweeper/GameState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sweeper/Matrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sweeper/Ranges.java" afterDir="false" />
+    <list default="true" id="f58473a8-a7b7-4cd5-964b-86b8745626c4" name="Changes" comment="delete final value">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/img/bomb.png" beforeDir="false" afterPath="$PROJECT_DIR$/resource/img/bomb.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/img/bombed.png" beforeDir="false" afterPath="$PROJECT_DIR$/resource/img/bombed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/img/closed.png" beforeDir="false" afterPath="$PROJECT_DIR$/resource/img/closed.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/img/flagged.png" beforeDir="false" afterPath="$PROJECT_DIR$/resource/img/flagged.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/img/inform.png" beforeDir="false" afterPath="$PROJECT_DIR$/resource/img/inform.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/img/nobomb.png" beforeDir="false" afterPath="$PROJECT_DIR$/resource/img/nobomb.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/img/num1.png" beforeDir="false" afterPath="$PROJECT_DIR$/resource/img/num1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/img/num2.png" beforeDir="false" afterPath="$PROJECT_DIR$/resource/img/num2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/img/num3.png" beforeDir="false" afterPath="$PROJECT_DIR$/resource/img/num3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/img/num4.png" beforeDir="false" afterPath="$PROJECT_DIR$/resource/img/num4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/img/num5.png" beforeDir="false" afterPath="$PROJECT_DIR$/resource/img/num5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/img/num6.png" beforeDir="false" afterPath="$PROJECT_DIR$/resource/img/num6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/img/num7.png" beforeDir="false" afterPath="$PROJECT_DIR$/resource/img/num7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/img/num8.png" beforeDir="false" afterPath="$PROJECT_DIR$/resource/img/num8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resource/img/zero.png" beforeDir="false" afterPath="$PROJECT_DIR$/resource/img/zero.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MineSweeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MineSweeper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,17 +50,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/java_ex/java_ex",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/java_ex/MineSweeper&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="MineSweeper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MineSweeper" />
@@ -105,7 +105,28 @@
       <option name="project" value="LOCAL" />
       <updated>1683821108269</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="completed game">
+      <created>1685209911659</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685209911659</updated>
+    </task>
+    <task id="LOCAL-00005" summary="game stat">
+      <created>1685506992797</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1685506992797</updated>
+    </task>
+    <task id="LOCAL-00006" summary="delete final value">
+      <created>1685625941111</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1685625941111</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -123,6 +144,9 @@
     <MESSAGE value="add icon" />
     <MESSAGE value="add icon))" />
     <MESSAGE value="rename icon" />
-    <option name="LAST_COMMIT_MESSAGE" value="rename icon" />
+    <MESSAGE value="completed game" />
+    <MESSAGE value="game stat" />
+    <MESSAGE value="delete final value" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete final value" />
   </component>
 </project>

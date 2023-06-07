@@ -2,7 +2,6 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
-import java.util.Locale;
 import java.util.Objects;
 
 import sweeper.Box;
@@ -15,7 +14,7 @@ public class MineSweeper extends JFrame {
     private int COLS = 9;
     private int ROWS = 9;
     private int BOMBS = 10;
-    private int IMAGE_SIZE = 50;
+    private int IMAGE_SIZE = 32;
     private JPanel panel;
     private JLabel label;
 
