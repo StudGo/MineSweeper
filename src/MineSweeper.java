@@ -33,7 +33,7 @@ public class MineSweeper extends JFrame {
 
     private void initLabel(){
         label = new JLabel("Добро пожаловать!");
-        add(label, BorderLayout.SOUTH);
+        add(label, BorderLayout.NORTH);
     }
     private void initPanel() {
         panel = new JPanel(){
